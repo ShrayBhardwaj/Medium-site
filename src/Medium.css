@@ -1,0 +1,32 @@
+.line{
+   /* margin-top: 12px; */
+    border-top: 1px solid black;
+
+    /*this width is used because here we used the bootstrap so that hr tag not cover the whole width they leave 15px both 
+    left nd right side so for fixed this we used calc formula  and width = 100% is not working here*/
+    
+    position: relative;
+    left: -40px;
+    width: calc(100% + 60px);
+    height: 1px;
+    /* Is used for no gap agter hr tag */
+     
+    padding: 0%;
+    margin: 0%;   
+}
+
+.line1{
+    /* margin-top: 12px; */
+    border-top: 1px solid black;
+
+    /*this width is used because here we used the bootstrap so that hr tag not cover the whole width they leave 15px both 
+    left nd right side so for fixed this we used calc formula  and width = 100% is not working here*/
+    
+    position: relative;
+    left: -50px;
+    width: calc(100% + 60px);
+    height: 1px;
+    /* Is used for no gap after hr tag */
+    margin: 10px;
+
+}
